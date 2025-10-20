@@ -16,3 +16,5 @@ min_d = min(digits)
 max_d = max(digits)
 sum_d = sum(digits)
 print(f"Min: {min_d}, Max: {max_d}, Sum: {sum_d}")
+
+print(f"updated.")
