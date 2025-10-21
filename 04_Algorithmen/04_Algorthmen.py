@@ -1,3 +1,5 @@
+# -------------------- Schleifen mit Zählvariablen --------------------
+
 cars = ["Audi", "BMW", "Mercedes", "VW"]
 
 # print(cars)
@@ -17,4 +19,41 @@ max_d = max(digits)
 sum_d = sum(digits)
 print(f"Min: {min_d}, Max: {max_d}, Sum: {sum_d}")
 
-print(f"updated.")
+
+# -------------------- Schleifen mit Bedingung --------------------
+
+age = 20
+
+if age < 18:
+    print("You are a minor.")
+elif age == 18:
+    print("You just became an adult.")
+elif age == 21:
+    print("You are now allowed to drink in the US.")  
+elif age > 18 and age < 21:
+    print("You are an adult but not allowed to drink in the US.")   
+else:
+    print("You are an adult.")
+
+
+# -------------------- Übungen --------------------
+
+liste = range(1, 10001)
+tb5 = []
+ntb5 = []
+
+for wert in liste:
+    if wert % 5 == 0:
+        # print(wert)
+        tb5.append(wert)
+    else:
+        ntb5.append(wert)
+
+# print(tb5)
+# print(ntb5)
+
+print(f"Anzahl durch 5 teilbarer Zahlen: {len(tb5)}")
+print(f"Anzahl nicht durch 5 teilbarer Zahlen: {len(ntb5)}")    
+
+
+
